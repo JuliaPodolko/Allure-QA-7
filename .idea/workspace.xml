@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138b762b-004c-45f3-8d68-833ca2c1ea45" name="Changes" comment="added WebSteps" />
+    <list default="true" id="138b762b-004c-45f3-8d68-833ca2c1ea45" name="Changes" comment="added WebSteps">
+      <change afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/LabelsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/ParametersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allure/AnnotatedStepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/AnnotatedStepTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allure/LambdaStepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/LambdaStepTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allure/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allure/WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/WebSteps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +101,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2AZbV2JchbkIxL2Xh7siekdUTng" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -135,28 +147,30 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Allure-QA-7 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnnotatedStepTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;qa.guru.allure.AnnotatedStepTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LambdaStepTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LambdaStepTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -179,7 +193,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LambdaStepTest.testGithubIssue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelenideTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -192,7 +206,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;qa.guru.allure.LambdaStepTest.testGithubIssue&quot;" />
+            <option value="&quot;qa.guru.allure.SelenideTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -228,9 +242,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Allure-QA-7 [allureServe]" />
-        <item itemvalue="Gradle.LambdaStepTest (1)" />
-        <item itemvalue="Gradle.Allure-QA-7 [test]" />
-        <item itemvalue="Gradle.LambdaStepTest.testGithubIssue" />
+        <item itemvalue="Gradle.AnnotatedStepTest" />
+        <item itemvalue="Gradle.SelenideTest" />
+        <item itemvalue="Gradle.LambdaStepTest" />
         <item itemvalue="Gradle.SelenideTest.testGithubIssue" />
       </list>
     </recent_temporary>
@@ -251,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655562835615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added WebSteps">
+      <created>1655563170107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655563170107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
